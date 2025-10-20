@@ -2,8 +2,8 @@
 # fr : Paris - France - differents emetteurs DVB-T de la Tour Eiffel
 # Latest update for the data / derniere mise a jour des donnees : 2025-10-10
 #
-# City                   Multiplex number : R1 R2 R4 R6 R7 R15
-# Paris - Eiffel Tower - Channel number   : 35 25 30 32 42 28
+# City                   Multiplex number : R1 R2 R4 R6 R7 R9 R15
+# Paris - Eiffel Tower - Channel number   : 35 25 30 32 42 24 28
 #
 # Note :
 # R8 - Is no longer used since the 05/04/2016 - Channel 58 is no longer used
@@ -72,6 +72,19 @@
 	CODE_RATE_LP = NONE
 	MODULATION = QAM/64
 	TRANSMISSION_MODE = 8K
+	GUARD_INTERVAL = 1/32
+	HIERARCHY = NONE
+	INVERSION = AUTO
+
+# R9 - Channel/Canal 24 - Groupe GR9A (France 2 UHD, test UHD)
+[CHANNEL 24]
+	DELIVERY_SYSTEM = DVBT2
+	FREQUENCY = 498166000
+	BANDWIDTH_HZ = 8000000
+	CODE_RATE_HP = 3/5
+	CODE_RATE_LP = NONE
+	MODULATION = QAM/256
+	TRANSMISSION_MODE = 32K
 	GUARD_INTERVAL = 1/32
 	HIERARCHY = NONE
 	INVERSION = AUTO
