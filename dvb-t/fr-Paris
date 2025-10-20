@@ -11,7 +11,7 @@
 # R3 - Is no longer used since the 06/06/2025 - Channel 22 is no longer used
 #
 
-# R1 - Channel/Canal 35 -  Groupe GR1 A (France 2 HD, France 4 HD, France Ô SD, franceinfo: SD), Groupe GR 1 (France 3-Paris Ile de France), Groupe R1 TFL (BFM Business Paris HD)
+# R1 - Channel/Canal 35 -  Groupe GR1 A (France 2, France 4, franceinfo:), Groupe GR 1 (France 3-Paris Ile de France)
 [CHANNEL 35]
 	DELIVERY_SYSTEM = DVBT
 	FREQUENCY = 586166000
@@ -24,7 +24,7 @@
 	HIERARCHY = NONE
 	INVERSION = AUTO
 
-# R2 - Channel/Canal 25 - Groupe NTN (C8, BFM TV, I-Tele, CStar, Gulli)
+# R2 - Channel/Canal 25 - Groupe NTN (BFM TV, CNEWS, CSTAR, Gulli, T18, NOVO19)
 [CHANNEL 25]
 	DELIVERY_SYSTEM = DVBT
 	FREQUENCY = 506166000
@@ -37,7 +37,7 @@
 	HIERARCHY = NONE
 	INVERSION = AUTO
 
-# R4 - Channel/Canal 30 - Groupe Multi4 (M6, W9, Arte, France5, 6ter)
+# R4 - Channel/Canal 30 - Groupe Multi4 (M6, W9, Arte, France5, 6ter, PARIS PREMIERE)
 [CHANNEL 30]
 	DELIVERY_SYSTEM = DVBT
 	FREQUENCY = 546166000
@@ -50,7 +50,7 @@
 	HIERARCHY = NONE
 	INVERSION = AUTO
 
-# R6 - Channel/Canal 32 - Groupe SMR6 (TF1, NRJ12, TMC, NT1, LCP-Public Senat)
+# R6 - Channel/Canal 32 - Groupe SMR6 (TF1, TMC, TFX, LCP, LCI)
 [CHANNEL 32]
 	DELIVERY_SYSTEM = DVBT
 	FREQUENCY = 562166000
@@ -63,7 +63,7 @@
 	HIERARCHY = NONE
 	INVERSION = AUTO
 
-# R7 - Channel/Canal 42 - Groupe MHD7 (HD1, Cherie 25, L equipe 21, RMC Decouverte, Numero 23)
+# R7 - Channel/Canal 42 - Groupe MHD7 (TF1 Séries Films, L'Equipe 21, RMC LIFE, RMC Découverte, RMC Story)
 [CHANNEL 42]
 	DELIVERY_SYSTEM = DVBT
 	FREQUENCY = 642166000
@@ -76,8 +76,8 @@
 	HIERARCHY = NONE
 	INVERSION = AUTO
 
-# R15 - Channel 28 - local channels only on Paris - Eiffel tower transmitter
-# Group Multi-7 (Canal 31, IDF1, France 24, Canal 34)
+# R15 - Channel/Canal 28 - local channels only on Paris - Eiffel tower transmitter
+# Group Multi-7 (Canal 31, 20 minutes TV, Le Figaro TV IDF)
 [CHANNEL 28]
 	DELIVERY_SYSTEM = DVBT
 	FREQUENCY = 530166000
